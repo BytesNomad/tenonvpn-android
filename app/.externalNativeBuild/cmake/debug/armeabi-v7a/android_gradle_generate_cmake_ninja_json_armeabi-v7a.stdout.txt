@@ -1,0 +1,5 @@
+-- Cmake build type is: Debug
+-- Cmake build android abi is: armeabi-v7a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/lego/lego-vpn-android/app/.externalNativeBuild/cmake/debug/armeabi-v7a

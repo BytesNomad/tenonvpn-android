@@ -1,0 +1,5 @@
+-- Cmake build type is: Release
+-- Cmake build android abi is: x86
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/lego/lego-vpn-android/app/.externalNativeBuild/cmake/release/x86

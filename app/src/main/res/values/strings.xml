@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TenonVPN</string>
+    <string name="menu_item_toggle_global">Toggle global mode</string>
+    <string name="menu_item_switch">Proxy</string>
+    <string name="menu_item_about">About</string>
+    <string name="menu_item_exit">Exit</string>
+    <string name="config_url">Config URL</string>
+    <string name="config_not_set_value">Not set</string>
+    <string name="config_url_scan">Scan an QR code</string>
+    <string name="config_url_manual">Type manually</string>
+    <string name="config_url_scan_hint">Scan the QR code of your config url</string>
+    <string name="select_app">Select App</string>
+    <string name="select_app_detail">No</string>
+    <string name="proxied_apps">Per-App Proxy</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_more">More&#8230;</string>
+    <string name="vpn_connected_status">connected</string>
+    <string name="vpn_disconnected_status">disconnected</string>
+    <string name="about_info">LegoVPN powered by shadowsocks android java</string>
+    <string name="exit_confirm_info">This will disconnect the VPN connection, Are you sure to exit?</string>
+    <string name="err_invalid_url">The config URL is invalid.</string>
+    <string name="config_url_hint">ss://method:password@host:port</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is not available on this phone.</string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for %s!</string>
+    <string name="googlepay_status_checking" translatable="false"></string>
+    <string name="googlepay_button_content_description" translatable="false">Google Pay</string>
+    <string name="buy_with_googlepay_button_content_description" translatable="false">Buy with Google Pay</string>
+    <string name="save_to_googlepay_button_content_description" translatable="false">Save to Google Pay</string>
+    <string name="add_to_googlepay_button_content_description" translatable="false">Add to Google Pay</string>
+    <string name="smart_route_name_string">Smart Route</string>
+    <string name="account_settings_string">Settings</string>
+    <string name="upgrade_settings_string">Upgrade</string>
+    <string name="private_key_string">Private Key</string>
+    <string name="account_id_string">Account Address</string>
+    <string name="balance_string">Balance</string>
+    <string name="transactions_string">Transactions</string>
+    <string name="navigation_string">Navigation</string>
+    <string name="connect_first_string">To access the external network after connecting to the VPN, click the middle round button.</string>
+    <string name="use_browser_string">open with browser</string>
+    <string name="select_a_website_string">Please select a website and open it with a browser.</string>
+    <string name="home_page">Home</string>
+    <string name="exit_check">Press again to exit.</string>
+    <string name="init_failed">Init network failed, please check your network and try again.</string>
+    <string name="bandwidth_over">Free traffic used up, buy tenon or use tomorrow.</string>
+    <string name="invalid_country">Agent service is not supported in your country or region.</string>
+    <string name="copy_succ">Copy Success.</string>
+    <string name="invalid_prikey">Private key invalid.</string>
+    <string name="set_prikey">Private key set success.</string>
+    <string name="max_set_prikey">Set up to three private keys.</string>
+    <string name="now_wait_to_sync">waiting server...</string>
+    <string name="disconnect_vpn_network">failed to connect vpn network.</string>
+    <string name="now_free_to_use"></string>
+    <string name="layters_over_before">VIP Due in </string>
+    <string name="layters_over_after"> days</string>
+    <string name="restart_app">reset private key must restart app!</string>
+    <string name="share_vip">Share to friends and earn tenon coin.</string>
+    <string name="copy_share_vip">Copy sharing link succeeded.</string>
+    <string name="share_content">Decentralized VPN, safe, reliable and high speed.</string>
+
+    <string name="latest_version">Already the latest version.</string>
+    <string name="share_button">share</string>
+
+    <string name="smart_route_usefull" translatable="false">Tenon p2p network protecting your ip and privacy.</string>
+    <string name="global_mode" translatable="false">Global Mode</string>
+</resources>

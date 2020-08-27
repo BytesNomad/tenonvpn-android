@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TenonVPN</string>
+    <string name="menu_item_switch">代理</string>
+    <string name="menu_item_toggle_global">开/关全局模式</string>
+    <string name="menu_item_about">关于</string>
+    <string name="menu_item_exit">退出</string>
+    <string name="config_url">配置地址</string>
+    <string name="config_not_set_value">未设置</string>
+    <string name="config_url_scan">扫描二维码</string>
+    <string name="config_url_manual">手动输入</string>
+    <string name="config_url_scan_hint">扫描配置地址的二维码</string>
+    <string name="select_app">选择使用代理的软件</string>
+    <string name="select_app_detail">未选择</string>
+    <string name="proxied_apps">使用代理的软件</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_more">更多&#8230;</string>
+    <string name="vpn_connected_status">已连接</string>
+    <string name="vpn_disconnected_status">已断开</string>
+    <string name="about_info">LegoVPN 是基于开源项目shadowsocks进行二次开发。</string>
+    <string name="exit_confirm_info">这将会断开VPN连接，确定要退出吗？</string>
+    <string name="err_invalid_url">无效的配置地址</string>
+    <string name="config_url_hint">ss://method:password@host:port</string>
+    <string name="smart_route_name_string">智能路由</string>
+    <string name="account_settings_string">账号设置</string>
+    <string name="upgrade_settings_string">升级更新</string>
+    <string name="private_key_string">私钥</string>
+    <string name="account_id_string">匿名地址</string>
+    <string name="balance_string">钱包余额</string>
+    <string name="transactions_string">交易记录</string>
+    <string name="navigation_string">常用网址</string>
+    <string name="connect_first_string">连接VPN后才能访问外部网，请点击中间圆形按钮。</string>
+    <string name="use_browser_string">用浏览器打开</string>
+    <string name="select_a_website_string">请选择一个网站，然后用浏览器打开。</string>
+    <string name="home_page">首页</string>
+    <string name="exit_check">再按一次退出</string>
+    <string name="init_failed">初始化网络失败，请检查网络并重试.</string>
+    <string name="bandwidth_over">今天的免费流量已经用完，购买套餐或明天继续使用</string>
+    <string name="invalid_country">所在国家地区不支持代理服务</string>\
+    <string name="disconnect_vpn_network">无法连接VPN网络</string>
+
+    <string name="copy_succ">拷贝成功</string>
+    <string name="invalid_prikey">私钥不正确</string>
+    <string name="set_prikey">账号设置成功</string>
+    <string name="max_set_prikey">最多设置三个私钥</string>
+    <string name="now_wait_to_sync">等待数据...</string>
+    <string name="now_free_to_use"></string>
+    <string name="layters_over_before">VIP </string>
+    <string name="layters_over_after"> 天后到期</string>
+    <string name="restart_app">设置新账号后需要重启APP！</string>
+    <string name="share_vip">分享给你的朋友并赚取Tenon币</string>
+    <string name="copy_share_vip">拷贝分享链接成功</string>
+    <string name="share_content">去中心化VPN，安全可靠高速。</string>
+    <string name="latest_version">已经是最新版本</string>
+    <string name="share_button">分享</string>
+    <string name="global_mode" translatable="false">全局代理</string>
+
+    <string name="smart_route_usefull" translatable="false">Tenon p2p 网络正在保护你的IP和隐私</string>
+</resources>

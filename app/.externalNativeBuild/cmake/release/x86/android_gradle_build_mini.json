@@ -1,0 +1,131 @@
+{
+  "buildFiles": [
+    "D:\\lego\\lego-vpn-android\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\tools\\tools\\lib\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\lego\\lego-vpn-android\\app\\.externalNativeBuild\\cmake\\release\\x86 --target clean"
+  ],
+  "libraries": {
+    "client-Release-x86": {
+      "artifactName": "client",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libclient.a"
+    },
+    "security-Release-x86": {
+      "artifactName": "security",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libsecurity.a"
+    },
+    "transport-Release-x86": {
+      "artifactName": "transport",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libtransport.a"
+    },
+    "tnet-Release-x86": {
+      "artifactName": "tnet",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libtnet.a"
+    },
+    "dht-Release-x86": {
+      "artifactName": "dht",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libdht.a"
+    },
+    "leveldb-Release-x86": {
+      "artifactName": "leveldb",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libleveldb.a"
+    },
+    "nat_traverse-Release-x86": {
+      "artifactName": "nat_traverse",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libnat_traverse.a"
+    },
+    "log4cpp-Release-x86": {
+      "artifactName": "log4cpp",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\liblog4cpp.a"
+    },
+    "kcp-Release-x86": {
+      "artifactName": "kcp",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libkcp.a"
+    },
+    "ssl-Release-x86": {
+      "artifactName": "ssl",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libssl.a"
+    },
+    "network-Release-x86": {
+      "artifactName": "network",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libnetwork.a"
+    },
+    "protobuf-Release-x86": {
+      "artifactName": "protobuf",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libprotobuf.a"
+    },
+    "init-Release-x86": {
+      "artifactName": "init",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libinit.a"
+    },
+    "uv-Release-x86": {
+      "artifactName": "uv",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libuv.a"
+    },
+    "zlib-Release-x86": {
+      "artifactName": "zlib",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libzlib.a"
+    },
+    "broadcast-Release-x86": {
+      "artifactName": "broadcast",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libbroadcast.a"
+    },
+    "common-Release-x86": {
+      "artifactName": "common",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libcommon.a"
+    },
+    "db-Release-x86": {
+      "artifactName": "db",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libdb.a"
+    },
+    "contract-Release-x86": {
+      "artifactName": "contract",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libcontract.a"
+    },
+    "native-lib-Release-x86": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\tools\\tools\\lib\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\lego\\lego-vpn-android\\app\\.externalNativeBuild\\cmake\\release\\x86 --target native-lib",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libnative-lib.so"
+    },
+    "crypto-Release-x86": {
+      "artifactName": "crypto",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libcrypto.a"
+    },
+    "cryptopp-Release-x86": {
+      "artifactName": "cryptopp",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libcryptopp.a"
+    },
+    "ip-Release-x86": {
+      "artifactName": "ip",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libip.a"
+    },
+    "uuid-Release-x86": {
+      "artifactName": "uuid",
+      "abi": "x86",
+      "output": "D:\\lego\\lego-vpn-android\\app\\src\\main\\cpp\\libs\\x86\\libuuid.a"
+    }
+  }
+}

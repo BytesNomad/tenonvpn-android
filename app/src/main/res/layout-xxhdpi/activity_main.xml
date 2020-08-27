@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include layout="@layout/title_layout"
+
+        >
+
+    </include>
+
+    <RelativeLayout
+        android:paddingTop="0dp"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_horizontal|center_vertical">
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="90dp"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/country_back"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:layout_marginTop="22dp" />
+    </RelativeLayout >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/disconnect_succ_in"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:text="@string/smart_route_usefull"                />
+        <!--<Button-->
+            <!--android:layout_width="61dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="0dp"-->
+            <!--android:background="@drawable/join_us"-->
+            <!--android:onClick="JoinUs"-->
+            <!--android:focusable="false" />-->
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="150dp"
+        android:gravity="center_horizontal|top"
+        >
+
+        <Button
+            android:id="@+id/vip_yes"
+            android:layout_width="81dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="-54dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/vip"
+            android:focusable="false"
+            android:gravity="left"
+            android:visibility="invisible"
+            android:onClick="buyTenon" />
+        <Button
+            android:id="@+id/vip_no"
+            android:layout_width="81dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="-54dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/no_vip"
+            android:focusable="false"
+            android:gravity="left"
+            android:visibility="invisible"
+            android:onClick="buyTenon" />
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/circleView"
+            android:layout_marginTop="0dp"
+            android:layout_width="244dp"
+            android:layout_height="244dp"
+            app:cpv_autoTextSize="false"
+            app:cpv_barColor="@color/gray"
+            app:cpv_innerContourSize="0dp"
+            app:cpv_maxValue="100"
+            app:cpv_outerContourSize="0dp"
+            app:cpv_rimColor="@color/disconnect_succ_out"
+            app:cpv_seekMode="true"
+            app:cpv_showUnit="true"
+            app:cpv_spinColor="@color/gray"
+            app:cpv_textColor="@color/gray"
+            app:cpv_textScale="1"
+            app:cpv_unit="%"
+            app:cpv_unitColor="@color/gray"
+            app:cpv_unitScale="1"
+            android:gravity="center_horizontal|center|center_vertical"
+            app:cpv_value="5" />
+        <at.markushi.ui.CircleButton
+            android:layout_marginTop="0dp"
+            android:id="@+id/start_vpn"
+            android:layout_width="244dp"
+            android:layout_height="244dp"
+            android:layout_marginLeft="0dp"
+            android:onClick="startVpn"
+            app:cb_color="#D9D9D9"
+            android:src="@drawable/connect"
+            android:gravity="center_horizontal|center|center_vertical"
+            app:cb_pressedRingWidth="8dip" />
+
+            <TextView
+                android:id="@+id/notice_text"
+                android:layout_width="224dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="230dp"
+                android:textColor="#ff0000"
+                android:textSize="13sp"
+                android:gravity="center_horizontal|center|center_vertical"
+                android:text=""/>
+    </RelativeLayout >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:layout_marginTop="-200dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv31"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/connect_succ_in"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Balance " />
+            <TextView
+                android:id="@+id/balance_lego"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:gravity="right"
+                android:text="0 Tenon"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:id="@+id/balance_dollar"
+                android:layout_marginTop="1dp"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_height="30dp"
+                android:gravity="left"
+                android:text="0 $"
+                android:textSize="13sp"
+                android:textColor="#ff0000"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/share_link_text"
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textSize="14sp"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/connect_succ_in"
+                android:text="@string/share_vip"
+                android:textStyle="italic"
+                android:onClick="shareVip"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="94dp"
+            android:gravity="left"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/connect_succ_in"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:text="@string/balance_string" />
+
+            <TextView
+                android:id="@+id/main_balance_lego"
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1.2"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="0dp"
+                android:textColor="@color/disconnect_succ_in"
+                android:text="@string/now_wait_to_sync"
+                />
+            <TextView
+                android:id="@+id/main_vip_left_status"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/disconnect_succ_in"
+                android:gravity="right"
+                android:text=""
+                />
+
+
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-40dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/btn_bg_normal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/account_settings_string"
+            android:onClick="showDialog"
+            android:focusable="false" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:background="@drawable/btn_bg_normal"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="@string/upgrade_settings_string"
+            android:onClick="checkVer"
+            android:focusable="false" />
+    </LinearLayout>
+</TableLayout>

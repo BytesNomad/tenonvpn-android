@@ -1,0 +1,14 @@
+Executable : D:\tools\tools\lib\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\lego\lego-vpn-android\app
+-BD:\lego\lego-vpn-android\app\.externalNativeBuild\cmake\debug\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-23
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\lego\lego-vpn-android\app\build\intermediates\cmake\debug\obj\x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=D:\tools\tools\lib\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=D:\tools\tools\lib\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\tools\tools\lib\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
